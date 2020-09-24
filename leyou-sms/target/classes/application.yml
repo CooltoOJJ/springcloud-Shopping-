@@ -1,0 +1,28 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.10.148
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
+    port: 5672
+
+leyou:
+  sms:
+    accessKeyId: LTAI4GAvLMkn6c3MaBnmX3kk # 你自己的accessKeyId
+    accessKeySecret: CgcjUAzoXLOVn4wahLLldyLXh6YOp1 # 你自己的AccessKeySecret
+    signName: 日夜奋斗 # 签名名称
+    verifyCodeTemplate: SMS_200720743 # 模板名称
+
+eureka:
+  client:
+    service-url:
+     defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
