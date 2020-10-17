@@ -4,9 +4,9 @@ spring:
   application:
     name: item-service
   datasource:
-    url: jdbc:mysql://101.37.172.151/hm49?characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://101.o.x.x/hm49?characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
-    password: Jijie211557!
+    password: Jijxxxxoooo
   rabbitmq:
     host: 192.168.10.148
     port: 5672
