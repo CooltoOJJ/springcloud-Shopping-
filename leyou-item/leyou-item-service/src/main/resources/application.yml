@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://101.o.x.x/hm49?characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
-    password: Jijxxxxoooo
+    password: 
   rabbitmq:
     host: 192.168.10.148
     port: 5672
