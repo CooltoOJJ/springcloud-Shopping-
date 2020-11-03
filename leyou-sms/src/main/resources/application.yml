@@ -13,8 +13,8 @@ spring:
 
 leyou:
   sms:
-    accessKeyId: LTAI4GAvLMkn6c3MaXXXXXXXXXXXXXXXXX # 你自己的accessKeyId
-    accessKeySecret: CgcjUAzoXLOVn4XXXXXXXXXXXXXXXX # 你自己的AccessKeySecret
+    accessKeyId:  # 你自己的accessKeyId
+    accessKeySecret: # 你自己的AccessKeySecret
     signName: 日夜奋斗 # 签名名称
     verifyCodeTemplate: SMS_200720743 # 模板名称
 
